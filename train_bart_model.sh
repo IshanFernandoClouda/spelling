@@ -18,7 +18,7 @@ python run_summarization.py \
     --save_total_limit="2" \
     --max_target_length=1024 \
     --max_source_length=1024 \
-    --fp16
+    --tpu
 
 exit
 
